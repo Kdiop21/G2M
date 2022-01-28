@@ -1,0 +1,93 @@
+<!DOCTYPE HTML />
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="fr">
+
+    <head>
+        <link rel="stylesheet" href="missions.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script src="jsObster.js"></script>
+        <Title>PORTRAIT DE TERRITOIRE DEPARTEMENT DU CHER</Title>
+    </head>
+
+<body>
+
+
+    <div id="overlay">
+        <img src="img/logo_cher.png" id="logo_cher" alt="">
+        OBSERVATOIRE TERRITORIAL DÉPARTEMENT DU CHER
+
+    </div>
+
+
+    <header>
+        <div class="topnav" id="classic">
+            <a class="active" href="file:///C:/Users/Khadim%20DIOP/Documents/G2M/Langages_Web_1_HTML_CSS/OBSTER_SITEWEB/indexObster-2.html#home">Accueil</a>
+            <a href="#about"></a>
+            <a href="file:///C:/Users/Khadim%20DIOP/Documents/G2M/Langages_Web_1_HTML_CSS/OBSTER_SITEWEB/missions.html">Missions</a>
+            <a href="#about"></a>
+            <a href="#about">Animation du territoire</a>
+            <a href="#about"></a>
+            <a href="#about">Gallerie</a>
+            <a href="#about"></a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div id="mobile">
+            <a href="#" id="lienMenuMobile"> <i class="fa fa-bars "></i></i></a>
+            <!--- icone menu mobile -->
+            <div id="mobile_liens">
+                <a class="active" href="#home">Accueil</a>
+                <a href="#about"></a>
+                <a href="file:///C:/Users/Khadim%20DIOP/Documents/G2M/Langages_Web_1_HTML_CSS/OBSTER_SITEWEB/missions.html">Missions</a>
+                <a href="#about"></a>
+                <a href="#about">Animation du territoire</a>
+                <a href="#about"></a>
+                <a href="#about">Gallerie</a>
+                <a href="#about"></a>
+                <a href="#contact">Contact</a>
+            </div>
+
+        </div>
+
+        <script>
+
+            var statutMenu = "closed";
+
+            document.getElementById("lienMenuMobile").onclick = function () {
+                if (statutMenu == "closed") {
+                    document.getElementById("mobile_liens").style.display = "block";
+                    statutMenu = "open";
+
+                } else {
+
+                    document.getElementById("mobile_liens").style.display = "none";
+                    statutMenu = "closed";
+                }
+            }
+
+        </script>
+
+    </header>
+
+
+
+    <!-- ******************************************************* -->
+
+
+
+    <!-- <footer>
+        <br>
+
+        Pyramides - Route de Guerry
+        18000 BOURGES <br>
+        Standard général : 02 48 27 8000b <br>
+        <a href="https://www.departement18.fr"> www.departement18.fr </a> <br>
+    </footer> -->
+
+</body>
+
+</html>
